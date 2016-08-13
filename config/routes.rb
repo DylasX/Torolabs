@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root "user#index"
+  root "users#index"
   resources :users
    #root "admin/dashboard#index"
 
