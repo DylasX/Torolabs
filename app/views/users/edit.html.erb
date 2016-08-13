@@ -1,0 +1,12 @@
+<%= form_for @user do |f| %>
+
+              <h2>Edit User <%= @user.name %></h2>
+              <%= f.text_field :name, :placeholder => "Name" %>
+
+              <%= f.text_field :phone, :placeholder => "Phone" %>
+
+              <%= f.text_field :email, :placeholder => "Email" %>
+
+              <%= f.submit 'Save' %>
+
+<% end %>
